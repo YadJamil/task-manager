@@ -1,8 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import AddTaskView from '@/views/tasks/create.vue'
-import TasksView from '@/views/tasks/tasks.vue'
-import TaskView from '@/views/tasks/task.vue'
-import EditTaskView from '@/views/tasks/edit.vue'
+import AddTaskView from '@/views/tasks/CreateView.vue'
+import TasksView from '@/views/tasks/ListView.vue'
+import TaskView from '@/views/tasks/TaskDetailView.vue'
+import EditTaskView from '@/views/tasks/EditView.vue'
 
 
 const router = createRouter({
