@@ -56,7 +56,7 @@ let handelDelete = (id) => {
 
         <div v-if="!task.completed">
           <button @click="handelToggle" class="btn btn-success">
-            <i class="fa-solid fa-square-check fa-lg"></i> mark is as completed
+            <i class="fa-solid fa-square-check fa-lg"></i> mark it as completed
           </button>
         </div>
       </div>
